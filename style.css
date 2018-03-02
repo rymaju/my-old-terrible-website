@@ -1,12 +1,11 @@
 body{
-	margin:0;
 	font-family: 'Open Sans';
 	font-size: 25px;
 	font-weight: 100;
 	background: #f2f2f2;
+	margin: 0 0 100px; /* bottom = footer height */
 }
 a{
-	color:#f67c00;
 	text-decoration: none;
 }
 a:hover{
@@ -18,21 +17,15 @@ a.homelink{
 a.homelink:hover{
 	color:inherit;
 }
-
 /** HEADER **/
 #header{
-	
 	width:100%;
 	overflow: hidden;
 	
 	text-align: center;
 	background:#021f28;
 	color: #fff;
-	
-}
-#section1
-{
-
+	position: relative;	
 }
 #intro
 {
@@ -40,8 +33,8 @@ a.homelink:hover{
 	position: relative;
 	max-width:1200px;
 	text-align: left;
-	left: 50px;
-	right: 50px;
+	margin: 0px 50px;
+	
 	margin: left;
 }
 h1{
@@ -52,7 +45,7 @@ h1{
 }
 h2{
 	font-family: 'Open Sans', sans-serif;
-	font-size: 2vw;
+	font-size: 25.6px;
 	color: #f67c00;;
 }
 p{
@@ -68,6 +61,7 @@ p{
 	min-height: 80px;
 	margin:0 left;
 	position: relative;
+	color: #f2f2f2;
 	
 }
 #nav_names{
@@ -77,20 +71,21 @@ p{
 	font-size:24px;
 	letter-spacing: 4px;
 	display: inline-block;
+	color: #f2f2f2;
 	
 }
 #nav_buttons{
 	position: absolute;
 	right:50px;
 	bottom:20px;
-	color:#333;
+	color: #f2f2f2;
 	font-size: 24px;
 	letter-spacing: 1px;
 	display: inline-block;
 	
 }
 #nav a.navlink{
-	color:#666;
+	color: #f2f2f2;
 	text-decoration: none;
 
 	-webkit-transition: color 0.2s ease-in-out;
@@ -100,7 +95,7 @@ p{
 
 }
 #nav a.navlink:hover{
-	color:#fff;
+	color:#f67c00;
 }
 
 @media (max-width: 600px){
@@ -118,13 +113,13 @@ p{
 	}
 }
 
-#content{
-	width: 100%;
-	max-width:1200px;
-	margin: left;
+.content{
+	width: auto;
+	max-width:100%;
 	text-align: left;
 	position: relative;
-	left: 50px;
+	height: 100%;
+	padding-left: 50px; padding-right: 50px;
 }
 * {box-sizing:border-box}
 
@@ -237,25 +232,22 @@ p{
   to {opacity: 1}
 }
 
-#footer{
-	width:100%;
-	overflow: hidden;
-	position: relative;
-}
-#footer_banner{
-	width:100%;
-	background:#000;
-	overflow: hidden;
-	bottom:30px;
-}
-#footer_banner > div{
-	width:100%;
-	padding:50px 0;
+
+footer {
+	background-color: #021f28;
+    position: absolute;
+    left: 0;
+	bottom: 0;
+	padding: 10px;
+    height: 80px;
+    width: 100%;
+	overflow:hidden;
+	color: white;
 	text-align: center;
-	color:#fff;
-	letter-spacing: 2px;
-    line-height: 28px;
-    font-size: 18px;
-    max-width: calc(100% - 40px);
-    margin: 0 auto;
-}
+	font-size: 16px;
+	
+  }
+html {
+	min-height: 100%;
+	position: relative;
+  }
