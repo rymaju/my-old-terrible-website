@@ -3,7 +3,9 @@ body{
 	font-size: 25px;
 	font-weight: 100;
 	background: #f2f2f2;
-	margin: 0;
+	margin:0;
+	padding:0;
+	height:100%;
 }
 a{
 	text-decoration: none;
@@ -24,22 +26,22 @@ a.homelink:hover{
 	overflow: hidden;
 	
 	text-align: center;
-	background:#021f28;
-	color: #fff;
+	background:#f2f2f2;
+	color: #021f28;;
 	position: relative;	
 }
 
 h1{
 	font-family: 'Roboto', sans-serif;
-	font-size: 4.5vw;
+	font-size: 100px;
 	color: #303030;
-	
 }
 h2{
 	font-family: 'Roboto', sans-serif;
 	font-size: 2.8vw;
 	color: #f67c00;;
 	text-align: center;
+	
 }
 p{
 	font-size: 24px;
@@ -51,7 +53,7 @@ p{
 	min-height: 80px;
 	margin:0 left;
 	position: relative;
-	color: #f2f2f2;
+	color: #021f28;
 	
 }
 #nav_names{
@@ -60,8 +62,8 @@ p{
 	bottom:20px;
 	font-size:24px;
 	display: inline-block;
-	color: #f2f2f2;
-	font-family: 'Roboto', sans-serif;
+	color: #021f28;
+	font-family: Helvetica, sans-serif;
 	
 	
 }
@@ -69,14 +71,14 @@ p{
 	position: absolute;
 	right:50px;
 	bottom:20px;
-	color: #f2f2f2;
+	color: #021f28;
 	font-size: 24px;
-	font-family: 'Roboto', sans-serif;
+	font-family: Helvetica, sans-serif;
 	display: inline-block;
 	
 }
 #nav a.navlink{
-	color: #f2f2f2;
+	color: #021f28;
 	text-decoration: none;
 
 	-webkit-transition: color 0.2s ease-in-out;
@@ -129,13 +131,15 @@ p{
 
 
 .footer {
-	background-color: #021f28;
-    position: relative;
+	background-color: #f2f2f2;
+    position: absolute;
     width: 100%;
-	color: black;
+	color: #f2f2f2;
 	font-size: 16px;
 	overflow: hidden;
-	
+	bottom: 0;
+	left: 0;
+    height: 100px;
   }
 
 /* HOMEPAGE */
@@ -151,14 +155,17 @@ p{
 	text-align:center;
 	flex-wrap: wrap;
 	overflow: wrap;
-	border-top: 3vw;
+	
+	/*border-top: 3vw;
+		background-color: #303030;
+
 	border-bottom: 3vw;
 	border-right: 0px;
 	border-left: 0px;
 	background-color: #303030;
 	
 	border-style: solid;
-	border-color:   #303030;
+	border-color:   #303030;*/
 }
 
 .image_container
@@ -171,6 +178,7 @@ p{
 	display: block;
 	position: relative;
 	overflow: hidden;
+	margin: 1%;
 	
 }
 
@@ -192,13 +200,14 @@ p{
 	width: 100%;
 	opacity: 0;
 	transition: .5s ease;
-	background-color: black;
+	background-color: #303030;
 
 	
   }
 
   .overlay_text {
 	color: white;
+	opacity: 1;
 	font-size: 2vw;
 	position: absolute;
 	top: 50%;
@@ -209,7 +218,7 @@ p{
   }
 
   .image_container:hover .overlay {
-	opacity: 0.8;
+	opacity: 1;
 }
 
 #section2
@@ -253,13 +262,22 @@ iframe
 	border-style: solid;
 	border-color:   #303030;
 }
+#container {
+	min-height:100%;
+	position:relative;
+ }
+ 
 .preview_image
 {
 	width: 30%;
 	margin :20px;
 	float: left;
 }
-
+html{
+	margin:0;
+	padding:0;
+	height: 100%
+}
 /* SINGLE GAMES */
 
 /* ABOUT */
