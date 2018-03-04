@@ -6,13 +6,20 @@ body{
 	margin:0;
 	padding:0;
 	height:100%;
+	opacity: 0;
+	-webkit-transition: all 1s ease-in; transition: all 1s ease-in;
 }
 a{
 	text-decoration: none;
-	color: #f2f2f2;
+	color: #303030;
+	-webkit-transition: border 0.5s ease; transition: border 0.5s ease;
+	
+	border-bottom: 5px solid transparent;
+	
 }
+.loaded {opacity: 1; }
 a:hover{
-	color:#f67c00;
+	border-bottom: 5px solid #e0818f;
 }
 a.homelink{
 	color:inherit;
@@ -39,7 +46,7 @@ h1{
 h2{
 	font-family: 'Roboto', sans-serif;
 	font-size: 2.8vw;
-	color: #f67c00;;
+	color: #f67c00;
 	text-align: center;
 	
 }
@@ -89,6 +96,7 @@ p{
 }
 #nav a.navlink:hover{
 	color:#f67c00;
+	border-bottom: 0px solid transparent;
 }
 
 @media (max-width: 600px){
