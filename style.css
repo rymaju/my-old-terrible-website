@@ -44,6 +44,7 @@ h2{
 }
 p{
 	font-size: 22px;
+	
 }
 #nav{
 	width: 100%;
@@ -179,7 +180,6 @@ h1 > a:hover{
 	font-size: 16px;
 	overflow: hidden;
 	bottom: 0;
-	left: -50px;
 	height: 100px;
 	text-align: center;
   }
@@ -256,9 +256,10 @@ h1 > a:hover{
 }
 .section > p
 {
-	padding: 20px; 
+	padding-top: 20px; 	padding-bottom: 20px; 
+	
 	width: 1100px;
-		margin: 0 auto;
+	margin: 0 auto;
 	max-width: 100%;
 
 }	
@@ -347,12 +348,13 @@ h1 > a:hover{
 }
 #contact
 {
-	width : calc(100%);
+	width : calc(100%-50px);
 	height: fit-content;
 	position: relative;
 	display: block;
 	overflow: hidden;
 	text-align: left;
+	margin-left:50px;
 }
 
 /* ALL GAMES */
