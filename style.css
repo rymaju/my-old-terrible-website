@@ -173,7 +173,7 @@ h1 > a:hover{
 
 .down
 {
-	padding: 50px;
+	padding-top: 50px;
 	width: 200px;
 	height: auto;
 	display: block;
@@ -233,6 +233,15 @@ h1 > a:hover{
 	
 }
 
+.center_image
+{
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30vw; 
+	
+}
+
 .overlay {
 	position: relative;
 	width: 100%;
@@ -261,22 +270,27 @@ h1 > a:hover{
 	opacity: 0.9;
 }
 
-#section2
+#about
 {
-	width : 100%;
-	height: fit-content;
-	position: relative;
-	display: block;
-	overflow: hidden
-}
-#section3
-{
-	width : 100%;
+	width : calc(100%-100px);
 	height: fit-content;
 	position: relative;
 	display: block;
 	overflow: hidden;
-	text-align: center;
+	text-align: left;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+#contact
+{
+	width : calc(100%-200px);
+	height: fit-content;
+	position: relative;
+	display: block;
+	overflow: hidden;
+	text-align: left;
+	margin-left: 100px;
+	margin-right: 50px;
 }
 iframe
 {
