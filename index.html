@@ -9,7 +9,8 @@
 		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
 		<link rel="stylesheet" href="style.css">
 
-		<script src="link.js"></script>
+
+
 	 <script>function loaded (el) { el.classList.add('loaded') }</script>
 
 	</head>
@@ -20,9 +21,9 @@
         	<div id="nav">
 	            <a href = "http://rymaju.github.io"><span id="nav_names">Ryan Jung</span></a>
 	            <span id="nav_buttons">
-	                <a class="navlink" href="http://blog.ncase.me">Games</a> |
-	                <a class="navlink" href="https://twitter.com/ncasenmare">About</a> |
-	                <a class="navlink" href="https://www.patreon.com/ncase">Contact</a>
+	                <a class="navlink" href="#section_game">Games</a> |
+	                <a class="navlink" href="#about">About</a> |
+	                <a class="navlink" href="#contact">Contact</a>
 	            </span>
 	        </div>
 	    </div>
@@ -206,6 +207,44 @@ Donec eu turpis lorem. Nam vel enim suscipit, maximus elit eu, faucibus magna. S
 
 	
  </div>	
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+
+    <script >
+      // Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          
+        });
+      }
+    }
+  });
+    </script>
+
+
+
 
 		<!--
 		<div id  = "section1">
