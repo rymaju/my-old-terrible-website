@@ -1,6 +1,9 @@
 <!DOCTYPE HTML>
+<!-- html document, for my portfolio home page! :D -->
 <html>
+	<!-- reference css and fonts, load page fade script -->
 	<head>
+		
 		<title>Ryan Jung</title>
 		<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono" rel="stylesheet">
@@ -8,18 +11,26 @@
 		<link rel="stylesheet" href="style.css">
 		<script>function loaded (el) { el.classList.add('loaded') }</script>
 	</head>
-	<body onload="loaded(document.body)">
+	<!-- body holds all content -->
+	<body onload="loaded(document.body)">	<!-- on load, use the load script to create page transition -->
+	
+		<!-- container holds all divs together in one div -->
 		<div id = "container">
+			
+			<!-- header gives my name and jumps to page anchors -->
 			<div id="header">
 				<div id="nav">
 					<a href = "http://rymaju.github.io"><span id="nav_names">Ryan Jung</span></a>
 					<span id="nav_buttons">
-					<a class="navlink" href="#section_game">Games</a> |
-					<a class="navlink" href="#about">About</a> |
-					<a class="navlink" href="#contact">Contact</a>
+						<a class="navlink" href="#section_game">Games</a> |
+						<a class="navlink" href="#about">About</a> |
+						<a class="navlink" href="#contact">Contact</a>
 					</span>
 				</div>
 			</div>
+			<!-- header end -->
+			
+			<!-- intro shows the giant block of text that introduces me -->
 			<div id = "intro">
 				<h1>
 					<span style = "color: #757b75">//Hi I'm</span><br>
@@ -29,133 +40,181 @@
 					<a href = "google.com"><span style = "color: #757b75"> //and I make video games!</span></a>
 				</h1>
 			</div>
-			<img src = "triangle down.png" class = "down"/>
-			<div id = "section_game">
-				<div id = "preview_game_container">
-					<h1>Explore My Games</h1>
-					<a href="https://rymaju.github.io/JamJarJuggling">
-						<div class = "image_container">
-							<img src="JJJ(1-1).jpg" class = "img"/>
-							<div class = "overlay">
-								<div class = "overlay_text">Learn more</div>
-							</div>
-						</div>
-						<div = class "game_caption">Jam Jar Juggling
-				</div>
-				</a>
-				<a href="http://explorabl.es/">
+			<!-- intro end -->
+			
+			
+			<img src = "triangle down.png" class = "down"/> <!-- triangle marks end of section -->
+			
+			<!-- everything is held together with a container-->
+			<div id = "preview_game_container">
+				<h1>Explore My Games</h1> <!-- title -->
+					
+				<!-- link -->
+				<a href="https://rymaju.github.io/JamJarJuggling">
+					<!-- image container held in inline block -->
 					<div class = "image_container">
-						<img src="JJJ(1-1).jpg" class = "img"/>
-						<div class = "overlay">
-							<div class = "overlay_text">Learn more</div>
+						<img src="JJJ(1-1).jpg" class = "img"/> <!-- square image -->
+						<div class = "overlay"> <!-- overlay box -->
+							<div class = "overlay_text">Learn more</div> <!-- overlay caption -->
 						</div>
 					</div>
-					<div = class "game_caption">Jam Jar Juggling
-			</div>
-			</a>
-			<a href="http://explorabl.es/">
-				<div class = "image_container">
-					<img src="JJJ(1-1).jpg" class = "img"/>
-					<div class = "overlay">
-						<div class = "overlay_text">Learn more</div>
+					<!-- end image container -->
+					<div = class "game_caption">Jam Jar Juggling</div> <!-- game caption under image container -->
+				</a>
+				<!-- end link -->
+					
+				<!-- link -->
+				<a href="https://rymaju.github.io/JamJarJuggling">
+					<!-- image container held in inline block -->
+					<div class = "image_container">
+						<img src="JJJ(1-1).jpg" class = "img"/> <!-- square image -->
+						<div class = "overlay"> <!-- overlay box -->
+						<div class = "overlay_text">Learn more</div> <!-- overlay caption -->
+						</div>
 					</div>
-				</div>
-				<div = class "game_caption">Jam Jar Juggling
-		</div>
-		</a>
-		<h2>./trash</h2>
-		<a href="http://explorabl.es/">
-			<div class = "image_container">
-				<img src="JJJ(1-1).jpg" class = "img"/>
-				<div class = "overlay">
-					<div class = "overlay_text">Learn more</div>
-				</div>
+					<!-- end image container -->
+					<div = class "game_caption">Jam Jar Juggling</div> <!-- game caption under image container -->
+				</a>
+				<!-- end link -->		
+					
+				<!-- new game section -->	
+				<h2>./trash</h2>
+				<!-- link -->
+				<a href="https://rymaju.github.io/JamJarJuggling">
+					<!-- image container held in inline block -->
+					<div class = "image_container">
+						<img src="JJJ(1-1).jpg" class = "img"/> <!-- square image -->
+						<div class = "overlay"> <!-- overlay box -->
+							<div class = "overlay_text">Learn more</div> <!-- overlay caption -->
+						</div>
+					</div>
+					<!-- end image container -->
+					<div = class "game_caption">Jam Jar Juggling</div> <!-- game caption under image container -->
+				</a>
+				<!-- end link -->	
+					
+					
+				<!-- link -->
+				<a href="https://rymaju.github.io/JamJarJuggling">
+					<!-- image container held in inline block -->
+					<div class = "image_container">
+						<img src="JJJ(1-1).jpg" class = "img"/> <!-- square image -->
+						<div class = "overlay"> <!-- overlay box -->
+							<div class = "overlay_text">Learn more</div> <!-- overlay caption -->
+						</div>
+					</div>
+					<!-- end image container -->
+					<div = class "game_caption">Jam Jar Juggling</div> <!-- game caption under image container -->
+				</a>
+				<!-- end link -->	
 			</div>
-			<div = class "game_caption">Jam Jar Juggling</div>
-		</a>
-		<a href="http://explorabl.es/">
-			<div class = "image_container">
-				<img src="JJJ(1-1).jpg" class = "img"/>
-				<div class = "overlay">
-					<div class = "overlay_text">Learn more</div>
-				</div>
-			</div>
-			<div = class "game_caption">Jam Jar Juggling</div>
-		</a>
-		</div>
-		</div>
-		<img src = "triangle down.png" class = "down"/>
-		<div id = "about">
-			<div class = "section">
-				<h1 style = "text-align:center">
+			<!-- end preview game container -->
+			
+			<img src = "triangle down.png" class = "down"/> <!-- marks next section-->
+		
+			<!-- about section contains sections-->
+			<div id = "about">
+			
+				<!-- title -->
+				<h1 style = "text-align:center"> 
 					Get to Know Me
 				</h1>
+				<!-- each section has a header, a block of pictures, and responsive text -->
 				<div class = "section">
+					<!-- subtitle -->
 					<h2>
 						My Work Process
 					</h2>
-					<p style="text-align:center;">
+					
+					<!-- image block  -->
+					<div style="text-align:center;">
 						<img class ="center_image"   src = "ISB1.jpg"></span>
 						<img class ="center_image"   src = "ISB1.jpg"></span>
 						<img class ="center_image"   src = "ISB1.jpg"></span>
-					</p>
+					</div>
+					
+					<!-- text -->
 					<p>
 						Donec eu turpis lorem. Nam vel enim suscipit, maximus elit eu, faucibus magna. Suspendisse tortor est, fermentum et viverra vitae, semper id augue. Duis aliquam sem elit, tempor sollicitudin purus hendrerit sit amet. Integer blandit hendrerit lacus id tempor. 
 					</p>
 					</p>
 				</div>
+				<!-- end section-->
+				
+				<!-- each section has a header, a block of pictures, and responsive text -->
 				<div class = "section">
+					<!-- subtitle -->
 					<h2>
 						My Story
 					</h2>
-					<p style="text-align:center;">
+					<!-- image block  -->
+					<div style="text-align:center;">
 						<img class ="center_image"   src = "ISB1.jpg"></span>
 						<img class ="center_image"   src = "ISB1.jpg"></span>
 						<img class ="center_image"   src = "ISB1.jpg"></span>
-					</p>
+					</div>
+					<!-- text -->
 					<p>
 						Donec eu turpis lorem. Nam vel enim suscipit, maximus elit eu, faucibus magna. Suspendisse tortor est, fermentum et viverra vitae, semper id augue. Duis aliquam sem elit, tempor sollicitudin purus hendrerit sit amet. Integer blandit hendrerit lacus id tempor. 
 					</p>
-					</p>
 				</div>
+				<!-- end section-->
+				
+				<!-- each section has a header, a block of pictures, and responsive text -->
 				<div class = "section">
 					<h2>
 						My Experiences
 					</h2>
-					<p style="text-align:center;">
+					<div style="text-align:center;">
 						<img class ="center_image"   src = "SAS1.jpg"></span>
 						<img class ="center_image"   src = "SAS1.jpg"></span>
-					</p>
+					</div>
 					<p>
 						Aliquam eleifend risus lacinia, imperdiet eros ut, auctor neque. Donec at pretium velit, nec blandit purus. Fusce pretium libero eu lacus ultrices consectetur. Nulla vel lacus condimentum, pretium arcu sit amet, facilisis velit. Proin in turpis et ipsum maximus ultricies vitae lacinia augue. Phasellus vel justo tortor. Nunc lobortis massa ut pulvinar laoreet. Curabitur nisi nunc, mollis at tempor et, tempor sit amet ex. Etiam eget laoreet ex. Donec tristique turpis ac mollis rhoncus.
 						Praesent congue laoreet tellus, eget convallis ex laoreet ut. Quisque scelerisque libero metus, eu suscipit nunc luctus ut. Donec dapibus ornare semper. Integer blandit orci in ligula semper, in euismod tellus accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius ipsum sollicitudin lobortis elementum. Vivamus ac fermentum augue, sed varius mauris. Pellentesque lectus quam, iaculis sed venenatis sed, facilisis id tortor. Etiam ac justo erat.
 						Donec eu turpis lorem. Nam vel enim suscipit, maximus elit eu, faucibus magna. Suspendisse tortor est, fermentum et viverra vitae, semper id augue. Duis aliquam sem elit, tempor sollicitudin purus hendrerit sit amet. Integer blandit hendrerit lacus id tempor. 
 					</p>
 				</div>
+				<!-- end section-->
 			</div>
-		</div>
-		<img src = "triangle down.png" class = "down"/>
-		<div id = "contact">
-			<h1 style = "text-align:center">
-				Contact me
-			</h1>
-			<h2 style = "text-align:left">
-				<span style = "color: #f67c00;">Email: jung32802@sas.edu.sg</span> <br> 
-				<span style = "color: #118682">Skype: rymaju</span> <br> 
-				<span style = "color: #284e93">Discord: rymaju#0968</span> <br> 
-				<span style = "color: #021f28">Itch.io: https://rymaju.itch.io/</span>
-			</h2>
-		</div>
-		<div class = "footer">
-			<div id="nav">
-				<span id="nav_names">Made by Ryan Jung</span>
-				<span id="nav_buttons">
-				<a class="navlink" href="#header">Back to Top</a> |
-				</span>
+			<!-- end about-->
+		
+			<img src = "triangle down.png" class = "down"/> <!-- triangle marks end of section -->
+		
+			<!-- contact contains contact information -->
+			<div id = "contact">
+				<!-- title -->
+				<h1 style = "text-align:center">
+					Contact me
+				</h1>
+				<!-- contact information -->
+				<h2 style = "text-align:left">
+					<span style = "color: #f67c00;">Email: jung32802@sas.edu.sg</span> <br> 
+					<span style = "color: #118682">Skype: rymaju</span> <br> 
+					<span style = "color: #284e93">Discord: rymaju#0968</span> <br> 
+					<span style = "color: #021f28">Itch.io: https://rymaju.itch.io/</span>
+				</h2>
 			</div>
-		</div>
+			<!-- end contact -->
+		
+			<!-- footer contains back to top and links to source -->
+			<div class = "footer">
+				<div id="nav">
+					<span id="nav_names">Made by Ryan Jung</span>
+					<span id="nav_buttons">
+					<a class="navlink" href="#header">Back to Top</a> |
+					</span>
+				</div>
+			</div>
+			<!-- footer end -->
 		</div>	
+		<!-- container end -->
+		
+		<!-- jquery script loads after html -->
+		
+		<!-- get jquery from googleapi -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!-- load this script which makes page ancher jumps a smooth scroll -->
 		<script >
 			// Select all links with hashes
 			$('a[href*="#"]')
@@ -186,5 +245,9 @@
 			}
 			});
 		</script>
+		<!-- script end-->
+		
 	</body>
+	<!-- body end -->
 </html>
+<!-- html end -->
