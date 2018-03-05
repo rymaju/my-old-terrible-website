@@ -228,7 +228,7 @@ img {
 }
 
 /** this is the container for the games section **/
-#preview_game_container {
+#games {
 	width: 100%;
 	max-width: 800px;
 	margin: 0 auto;
@@ -238,7 +238,7 @@ img {
 }
 
 /** this is the styling for the link block that holds the game and the caption **/
-#preview_game_container>a {
+#games > a {
 	text-decoration: none;
 	display: inline-block;
 	color: #021f28;
