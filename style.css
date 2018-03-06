@@ -263,7 +263,7 @@ img {
 	opacity: 0;
 	transition: .5s ease;
 	background-color: #303030;
-	transform: translate(00, -357px);
+	transform: translate(0, -355px);
 	left: 0;
 }
 
@@ -283,7 +283,7 @@ img {
 
 /** when you hover over the image container the overlay becomes opaque **/
 .image_container:hover .overlay {
-	opacity: 0.9;
+	opacity: 0.95;
 }
 
 /** about section container full of text and information **/
