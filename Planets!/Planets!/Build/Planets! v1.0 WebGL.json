@@ -1,0 +1,13 @@
+{
+"companyName": "rymaju",
+"productName": "Planets!",
+"dataUrl": "Planets! v1.0 WebGL.data.unityweb",
+"asmCodeUrl": "Planets! v1.0 WebGL.asm.code.unityweb",
+"asmMemoryUrl": "Planets! v1.0 WebGL.asm.memory.unityweb",
+"asmFrameworkUrl": "Planets! v1.0 WebGL.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
