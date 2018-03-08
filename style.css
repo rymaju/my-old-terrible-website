@@ -72,7 +72,7 @@ body {
 	font-family: 'Montserrat';
 	font-weight: 100;
     
-	background: linear-gradient(to bottom right,#7BC6D7,#B382DD);
+	background: linear-gradient(170deg,#7BC6D7,#AFE1ED,#D4B3F0,#B382DD,#8B8DDF);
     width: 100%;
 	min-height: 100%;
     margin-left: 0;
@@ -272,7 +272,7 @@ img {
     background: black;
     width: 100vw;
     right: 50px;
-	background: linear-gradient(to bottom right,#7BC6D7,#B382DD);
+	background: linear-gradient(to bottom right,#AFE1ED,#7BC6D7,#8B8DDF,#B382DD,#D4B3F0);
 
 }
 
