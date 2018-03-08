@@ -1,24 +1,62 @@
 /* This is the css file for my website. Every page references this one bloated css file! */
 
+@font-face {
+    font-family: 'hecticregular';
+    src: url('hectic-webfont.woff2') format('woff2'),
+         url('hectic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+@font-face {
+    font-family: 'moon_flower_boldregular';
+    src: url('moon_flower_bold-webfont.woff2') format('woff2'),
+         url('moon_flower_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'organic_teabagsregular';
+    src: url('organic_teabags-webfont.woff2') format('woff2'),
+         url('organic_teabags-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'moon_flowerregular';
+    src: url('moon_flower-webfont.woff2') format('woff2'),
+         url('moon_flower-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /** BIG TEXT! **/
 h1 {
-	font-family: 'Roboto', sans-serif;
-	font-size: 120px;
-	color: #303030;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 100px;
+	color: #ffffff;
+    height: auto;
 }
 
 /** NOT AS BIG AS H1 TEXT! **/
 h2 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 50px;
-	color: #f67c00;
+	font-size: 70px;
+	color: #ffffff;
 	text-align: center;
 }
 
 /** regular paragraph text **/
 p {
 	font-size: 22px;
+    color: #ffffff;
 }
 
 /** html needs to fill the page**/
@@ -26,21 +64,27 @@ html {
 	margin: 0;
 	padding: 0;
 	min-height: 100%
+        
 }
 
 /** body needs to fill the page and it needs to be used for some sick transitions \(>.<)/ **/
 body {
-	font-family: 'Open Sans';
+	font-family: 'Montserrat';
 	font-weight: 100;
-	background: #f2f2f2;
-	max-width: 100%;
+    
+	background: linear-gradient(to bottom right,#7BC6D7,#B382DD);
+    width: 100%;
 	min-height: 100%;
+    margin-left: 0;
+    margin-top: 0;
 
 	/* opacity is 0 for page transition, it gets changed to 1 when .loaded is called */
 	opacity: 0;
 
 	-webkit-transition: all 1s ease-in;
 	transition: all 1s ease-in;
+    
+    
 }
 
 .loaded {
@@ -61,17 +105,14 @@ body {
 	overflow: hidden;
 	height: fit-content;
 	text-align: center;
-	background: #f2f2f2;
-	color: #021f28;
 	position: relative;
 }
 
 /** footer stuff **/
 .footer {
-	background-color: #f2f2f2;
 	position: relative;
 	width: 100%;
-	color: #f2f2f2;
+	color: #ffffff;
 	font-size: 16px;
 	overflow: hidden;
 	bottom: 0;
@@ -87,7 +128,7 @@ body {
 	min-height: 80px;
 	margin: 0 left;
 	position: relative;
-	color: #021f28;
+	color: #ffffff;
 }
 
 /** header/footer no link **/
@@ -97,8 +138,8 @@ body {
 	bottom: 20px;
 	font-size: 24px;
 	display: inline-block;
-	color: #021f28;
-	font-family: Helvetica, sans-serif;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
 }
 
 /** header/footer link **/
@@ -106,15 +147,15 @@ body {
 	position: absolute;
 	right: 50px;
 	bottom: 20px;
-	color: #021f28;
+	color: #ffffff;
 	font-size: 24px;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	display: inline-block;
 }
 
 /** header/footer link transition + color **/
 #nav a.navlink {
-	color: #021f28;
+	color: #ffffff;
 	text-decoration: none;
 	-webkit-transition: color 0.2s ease-in-out;
 	-moz-transition: color 0.2s ease-in-out;
@@ -124,7 +165,7 @@ body {
 
 /** header/footer link hover **/
 #nav a.navlink:hover {
-	color: #f67c00;
+	color: #6669CB;
 	border-bottom: 0px solid transparent;
 }
 
@@ -156,7 +197,6 @@ body {
 	text-align: left;
 	margin-left: 50px;
 	margin-right: 50px;
-	top: -25px;
 }
 
 /** responsive headers **/
@@ -190,7 +230,7 @@ body {
 /** h1 links have a cool underline effect! **/
 h1>a {
 	text-decoration: none;
-	color: #303030;
+	color: #ffffff;
 	-webkit-transition: border 0.5s ease;
 	transition: border 0.5s ease;
 	border-bottom: 0px solid transparent;
@@ -227,6 +267,15 @@ img {
 	;
 }
 
+.colored_container
+{
+    background: black;
+    width: 100vw;
+    right: 50px;
+	background: linear-gradient(to bottom right,#7BC6D7,#B382DD);
+
+}
+
 /** this is the container for the games section **/
 #games {
 	width: 100%;
@@ -241,7 +290,7 @@ img {
 #games > a {
 	text-decoration: none;
 	display: inline-block;
-	color: #021f28;
+	color: #ffffff;
 	padding-bottom: 40px;
 }
 
@@ -252,7 +301,7 @@ img {
 	width: 350px;
 	height: 350px;
 	margin: 10px;
-	border: 10px double #021f28;
+	border: 10px solid #ffffff;
 }
 
 /** overlay box that becomes opaque when hovered over **/
@@ -262,7 +311,7 @@ img {
 	height: 100%;
 	opacity: 0;
 	transition: .5s ease;
-	background-color: #303030;
+	background-color: #6669CB;
 	transform: translate(0, -355px);
 	left: 0;
 }
@@ -278,7 +327,7 @@ img {
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 /** when you hover over the image container the overlay becomes opaque **/
@@ -355,5 +404,5 @@ img {
 	height: 50px;
 	width: 100%;
 	font-size: 28px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
