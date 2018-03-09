@@ -42,11 +42,13 @@ html {
 }
 
 /** body needs to fill the page and it needs to be used for some sick transitions \(>.<)/ **/
+
 body {
 	font-family: 'Montserrat';
 	font-weight: 100;
-    
-	background: linear-gradient(150deg,#52A9BD,#7BC6D7, #8B8DDF, #B382DD,#955BC7);
+        /* 52ACBD 7AC8D7 5E82C5 84A3DC 6F64CA 938ADF */
+
+	background: linear-gradient(160deg,#52ACBD,#7AC8D7, #84A3DC, #5E82C5, #84A3DC, #938ADF, #6F64CA);
     width: 100%;
 	min-height: 100%;
     margin-left: 0;
@@ -139,7 +141,7 @@ body {
 
 /** header/footer link hover **/
 #nav a.navlink:hover {
-	color: #6669CB;
+	color: #284e93;
 	border-bottom: 0px solid transparent;
 }
 
@@ -217,7 +219,7 @@ h1>a:hover {
 
 /** this is the styling for the down triangle section marker **/
 .down {
-	padding-top: 10px;
+	padding-top: 75px;
 	width: 200px;
 	height: auto;
 	display: block;
@@ -285,7 +287,7 @@ img {
 	height: 100%;
 	opacity: 0;
 	transition: .5s ease;
-	background-color: #6669CB;
+	background-color: #338BA0;
 	transform: translate(0, -355px);
 	left: 0;
 }
