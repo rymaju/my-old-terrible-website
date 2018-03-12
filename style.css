@@ -280,7 +280,7 @@ img {
 /** this is the container for the games section **/
 #games {
 	width: 100%;
-	max-width: 800px;
+	max-width: 1000px;
 	margin: 0 auto;
 	text-align: center;
 	padding: 20px 0;
