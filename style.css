@@ -13,24 +13,26 @@
 
 /** BIG TEXT! **/
 h1 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 100px;
+font-family: 'Roboto', sans-serif;
+	font-size: 120px;
 	color: #ffffff;
-    margin: auto;
+    margin: 0,50px;
 }
 
 /** NOT AS BIG AS H1 TEXT! **/
 h2 {
-	font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
 	font-size: 70px;
 	color: #ffffff;
 	text-align: center;
+    height: auto;
 }
 
 /** regular paragraph text **/
 p {
 	font-size: 22px;
     color: #ffffff;
+font-family: 'Open Sans', sans-serif;
 }
 
 /** html needs to fill the page**/
@@ -44,15 +46,15 @@ html {
 /** body needs to fill the page and it needs to be used for some sick transitions \(>.<)/ **/
 
 body {
-	font-family: 'Montserrat';
 	font-weight: 100;
         /* 52ACBD 7AC8D7 5E82C5 84A3DC 6F64CA 938ADF */
 
-	background: linear-gradient(160deg,#52ACBD,#7AC8D7, #84A3DC, #5E82C5, #84A3DC, #938ADF, #6F64CA);
+	/*background: linear-gradient(160deg,#52ACBD,#7AC8D7, #84A3DC, #5E82C5, #84A3DC, #938ADF, #6F64CA);*/
     width: 100%;
 	min-height: 100%;
     margin-left: 0;
     margin-top: 0;
+        margin-bottom: 0;
 
 	/* opacity is 0 for page transition, it gets changed to 1 when .loaded is called */
 	opacity: 0;
@@ -74,6 +76,16 @@ body {
 	position: relative;
 }
 
+.divider{
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+.white_bar{
+    height: 3vh;
+    background: white;
+}
 
 /** heaaaderrr **/
 #header {
@@ -86,7 +98,7 @@ body {
 
 /** footer stuff **/
 .footer {
-	position: relative;
+	position: absolute;
 	width: 100%;
 	color: #ffffff;
 	font-size: 16px;
@@ -112,10 +124,10 @@ body {
 	position: absolute;
 	left: 50px;
 	bottom: 20px;
-	font-size: 24px;
+	font-size: 28px;
 	display: inline-block;
 	color: #ffffff;
-	font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
 }
 
 /** header/footer link **/
@@ -124,8 +136,8 @@ body {
 	right: 50px;
 	bottom: 20px;
 	color: #ffffff;
-	font-size: 24px;
-	font-family: 'Montserrat', sans-serif;
+	font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
 	display: inline-block;
 }
 
@@ -169,13 +181,15 @@ body {
 #intro {
 	width: calc(100%-100px);
 	position: relative;
-	text-align: left;
+	text-align: center;
 	margin-left: 50px;
 	margin-right: 50px;
     margin-top: 75px;
-        margin-bottom: 75px;
+        margin-bottom: 25px;
+        height: auto;
 
 }
+
 
 /** responsive headers **/
 @media (max-width: 1000px) {
@@ -264,6 +278,7 @@ img {
 	text-align: center;
 	padding: 20px 0;
 	overflow: hidden;
+    height: auto;
 }
 
 /** this is the styling for the link block that holds the game and the caption **/
@@ -272,6 +287,14 @@ img {
 	display: inline-block;
 	color: #ffffff;
 	padding-bottom: 40px;
+}
+
+/** caption for the game **/
+.game_caption {
+	height: 50px;
+	width: 100%;
+	font-size: 32px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 /** image container **/
@@ -317,48 +340,43 @@ img {
 
 /** about section container full of text and information **/
 #about {
-	width: calc(100%-100px);
+	max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+
 	height: fit-content;
 	position: relative;
-	display: block;
 	overflow: hidden;
 	text-align: left;
-	margin-left: 50px;
-	margin-right: 50px;
+
 }
 
 /** general section class for when i need a container to seperate things (usually used in about section) **/
 .section {
 	position: relative;
 	display: block;
-	width: 100%;
 	margin: 0 auto;
 	height: fit-content;
 	overflow: hidden;
-	max-width: 1200px;
+	max-width: 100%;
+    float: center;
+    width: 1200px;
+
 }
+
 /** sizing for the p sections in the section class **/
 .section>p {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	width: 1100px;
-	margin: 0 auto;
-	max-width: 100%;
-}
+	width: 100%;
+    	max-width: 100%;
 
-/** responsive text box sizing! **/
-@media (max-width: 1187px) {
-	.section>p {
-		width: 820px;
-		margin: 0 auto;
-	}
-}
 
-@media (max-width: 700px) {
-	.section>p {
-		width: 80%;
-		margin: 0 auto;
-	}
+}
+@media (max-width:960px)
+{
+    
+    
 }
 
 /** contact information container **/
@@ -379,10 +397,4 @@ img {
 	margin-right: auto;
 }
 
-/** caption for the game **/
-.game_caption {
-	height: 50px;
-	width: 100%;
-	font-size: 28px;
-	font-family: 'Montserrat', sans-serif;
-}
+
