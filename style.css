@@ -83,7 +83,7 @@ body {
 }
 
 .white_bar{
-    height: 3vh;
+    height: 5px;
     background: white;
 }
 
@@ -294,7 +294,7 @@ img {
 	height: 50px;
 	width: 100%;
 	font-size: 32px;
-	font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 /** image container **/
@@ -330,7 +330,7 @@ img {
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 /** when you hover over the image container the overlay becomes opaque **/
