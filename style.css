@@ -1,4 +1,10 @@
-/* This is the css file for my website. Every page references this one bloated css file! */
+/* This is the css file for my website. Every page references this one bloated css file! 
+
+NOTES: NEED TO ADD BREAKPOINTS AND @MEDIA RESPONSIVE DESIGN FOR ALL
+
+
+
+*/
 
 @font-face {
     font-family: 'hecticregular';
@@ -235,8 +241,8 @@ h1>a:hover {
 
 /** this is the styling for the down triangle section marker **/
 .down {
-	padding-top: 75px;
-    	padding-bottom: 75px;
+	padding-top: 50px;
+    	padding-bottom: 50px;
 
 	width: 200px;
 	height: auto;
@@ -247,7 +253,8 @@ h1>a:hover {
 
 /** all images should fit their container by width **/
 img {
-	width: 100%;
+   width: 100%;
+  height: auto;
 }
 
 /** center block **/
@@ -255,8 +262,8 @@ img {
 	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 350px;
-	max-height: 350px;
+	width: 1190px;
+	max-height: 390px;
 	border: 5px solid #ffffff;
 	
 }
