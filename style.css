@@ -63,7 +63,7 @@ body {
    margin-bottom: 0;
 
 	/* opacity is 0 for page transition, it gets changed to 1 when .loaded is called */
-	opacity: 0;
+	opacity: 1;
 
 	-webkit-transition: all 1s ease;
 	transition: all 1s ease;
