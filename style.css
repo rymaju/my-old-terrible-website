@@ -275,6 +275,11 @@ font-family: 'Open Sans', sans-serif;
 	}
 	#nav_buttons {
         		font-size: 20px;
+    }
+    .image_container{
+        width: 250px;
+	   height: 250px;
+    }
 }
 
 /** h1 links have a cool underline effect! **/
