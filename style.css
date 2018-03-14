@@ -370,19 +370,7 @@ font-family: 'Roboto', sans-serif;
 	margin: 10px;
 	border: 10px solid #ffffff;
 }
-@media (max-width: 480px) {
 
-    .image_container {
-        width: 250px;
-	   height: 250px;
-    }
-    .center_image{
-        	max-height: 250px;
-            max-width: 250px;
-
-
-    }
-}
 /** overlay box that becomes opaque when hovered over **/
 .overlay {
 	position: relative;
@@ -413,7 +401,23 @@ font-family: 'Roboto', sans-serif;
 .image_container:hover .overlay {
 	opacity: 0.95;
 }
+@media (max-width: 480px) {
 
+    .image_container {
+        width: 250px;
+	   height: 250px;
+    }
+    .overlay{
+        transform: translate(0, -255px);
+
+    }
+    .center_image{
+        	max-height: 250px;
+            max-width: 250px;
+
+
+    }
+}
 /** about section container full of text and information **/
 #about {
 	max-width: 100%;
