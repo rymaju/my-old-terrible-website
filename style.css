@@ -294,7 +294,17 @@ h1>a {
 h1>a:hover {
 	border-bottom: 10px solid #e0818f;
 }
+h2>a {
+	text-decoration: none;
+	color: #ffffff;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	border-bottom: 0px solid transparent;
+}
 
+h2>a:hover {
+	color: gainsboro;
+}
 
 /** this is the styling for the down triangle section marker **/
 .down {
