@@ -259,7 +259,7 @@ font-family: 'Open Sans', sans-serif;
 
 @media (max-width: 480px) {
     intro {
-		font-size: 50px;
+		font-size: 42px;
 	}
 	h1 {
 		font-size: 36px;
@@ -270,6 +270,9 @@ font-family: 'Open Sans', sans-serif;
     h3 {
 		font-size: 28px;
 	}
+    p {
+        font-size: 16px;
+    }
     #nav_names {
 		font-size: 20px;
 	}
