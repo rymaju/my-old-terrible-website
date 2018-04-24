@@ -188,7 +188,7 @@ body {
 }
 
 /** h1 links have a cool underline effect! **/
-h1>a {
+h>a {
 	text-decoration: none;
 	color: #303030;
 	-webkit-transition: border 0.5s ease;

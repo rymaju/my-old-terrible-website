@@ -28,7 +28,7 @@ intro{
 }
 h1 {
 font-family: 'Roboto', sans-serif;
-	font-size: 80px;
+	font-size: 100px;
 	color: #ffffff;
     margin: 0,50px;
 }
@@ -36,14 +36,14 @@ font-family: 'Roboto', sans-serif;
 /** NOT AS BIG AS H1 TEXT! **/
 h2 {
 font-family: 'Roboto', sans-serif;
-	font-size: 50px;
+	font-size: 60px;
 	color: #ffffff;
 	text-align: center;
     height: auto;
 }
 h3{
   font-family: 'Roboto', sans-serif;
-	font-size: 38px;
+	font-size: 35px;
 	color: #ffffff;
 	text-align: center;
     height: auto;  
@@ -283,17 +283,17 @@ font-family: 'Open Sans', sans-serif;
 }
 
 /** h1 links have a cool underline effect! **/
-h1>a {
+a {
 	text-decoration: none;
 	color: #ffffff;
-	-webkit-transition: border 0.5s ease;
-	transition: border 0.5s ease;
-	border-bottom: 0px solid transparent;
+	transition: color 0.2s ease-in-out;
 }
 
-h1>a:hover {
-	border-bottom: 10px solid #e0818f;
+a:hover {
+    color: gainsboro;
+
 }
+
 h2>a {
 	text-decoration: none;
 	color: #ffffff;
@@ -304,6 +304,8 @@ h2>a {
 
 h2>a:hover {
 	color: gainsboro;
+    	transition: all 0.5s ease;
+
 }
 
 /** this is the styling for the down triangle section marker **/
