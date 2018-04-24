@@ -214,16 +214,16 @@ font-family: 'Open Sans', sans-serif;
 /** responsive headers **/
 @media (max-width: 1366px) {
     intro {
-		font-size: 160px;
+		font-size: 140px;
 	}
 	h1 {
-		font-size: 120px;
+		font-size: 70px;
 	}
 	h2 {
-		font-size: 80px;
+		font-size: 50px;
 	}
     h3 {
-		font-size: 38px;
+		font-size: 30px;
 	}
 }
 
@@ -232,10 +232,10 @@ font-family: 'Open Sans', sans-serif;
 		font-size: 120px;
 	}
 	h1 {
-		font-size: 90px;
+		font-size: 65px;
 	}
 	h2 {
-		font-size: 60px;
+		font-size: 40px;
 	}
     h3 {
 		font-size: 28px;
@@ -250,16 +250,16 @@ font-family: 'Open Sans', sans-serif;
 		font-size: 60px;
 	}
 	h2 {
-		font-size: 40px;
+		font-size: 30px;
 	}
     h3 {
-		font-size: 22px;
+		font-size: 28px;
 	}
 }
 
 @media (max-width: 480px) {
     intro {
-		font-size: 42px;
+		font-size: 50px;
 	}
 	h1 {
 		font-size: 36px;
@@ -268,7 +268,7 @@ font-family: 'Open Sans', sans-serif;
 		font-size: 30px;
 	}
     h3 {
-		font-size: 20px;
+		font-size: 28px;
 	}
     #nav_names {
 		font-size: 20px;
