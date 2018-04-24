@@ -50,7 +50,7 @@ h3{
 }
 /** regular paragraph text **/
 p {
-	font-size: 22px;
+	font-size: 16px;
     color: #ffffff;
 font-family: 'Open Sans', sans-serif;
 }
@@ -271,7 +271,7 @@ font-family: 'Open Sans', sans-serif;
 		font-size: 28px;
 	}
     p {
-        font-size: 16px;
+        font-size: 12px;
     }
     #nav_names {
 		font-size: 20px;
