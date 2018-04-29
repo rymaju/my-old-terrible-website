@@ -211,7 +211,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 
-/** responsive headers **/
+/** responsive headers 
 @media (max-width: 1366px) {
     intro {
 		font-size: 140px;
@@ -226,7 +226,7 @@ font-family: 'Open Sans', sans-serif;
 		font-size: 30px;
 	}
 }
-
+**/
 @media (max-width: 1024px) {
 	intro {
 		font-size: 120px;
