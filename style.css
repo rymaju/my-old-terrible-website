@@ -229,13 +229,13 @@ font-family: 'Open Sans', sans-serif;
 **/
 @media (max-width: 1024px) {
 	intro {
-		font-size: 120px;
+		font-size: 90px;
 	}
 	h1 {
-		font-size: 65px;
+		font-size: 60px;
 	}
 	h2 {
-		font-size: 40px;
+		font-size: 35px;
 	}
     h3 {
 		font-size: 28px;
