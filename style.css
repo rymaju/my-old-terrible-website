@@ -286,7 +286,7 @@ font-family: 'Open Sans', sans-serif;
 
 /** h1 links have a cool underline effect! **/
 a {
-	text-decoration: none;
+	text-decoration: underline;
 	color: #ffffff;
 	transition: color 0.2s ease-in-out;
 }
