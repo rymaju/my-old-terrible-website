@@ -399,7 +399,7 @@ font-family: 'Open Sans', sans-serif;
 	height: 100%;
 	opacity: 0;
 	transition: .5s ease;
-	background-color: #5E82C5;
+	background-color: black;
 	transform: translate(0, -355px);
 	left: 0;
 }
@@ -420,7 +420,7 @@ font-family: 'Roboto', sans-serif;
 
 /** when you hover over the image container the overlay becomes opaque **/
 .image_container:hover .overlay {
-	opacity: 0.95;
+	opacity: 0.5;
 }
 @media (max-width: 480px) {
 

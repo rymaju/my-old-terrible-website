@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "CS Hackathon 2018",
+"dataUrl": "Singapore Recycling v0.91 WebGL.data.unityweb",
+"asmCodeUrl": "Singapore Recycling v0.91 WebGL.asm.code.unityweb",
+"asmMemoryUrl": "Singapore Recycling v0.91 WebGL.asm.memory.unityweb",
+"asmFrameworkUrl": "Singapore Recycling v0.91 WebGL.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
