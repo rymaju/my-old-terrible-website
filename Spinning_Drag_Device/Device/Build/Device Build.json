@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "ATCP Project",
+"dataUrl": "Device Build.data.unityweb",
+"asmCodeUrl": "Device Build.asm.code.unityweb",
+"asmMemoryUrl": "Device Build.asm.memory.unityweb",
+"asmFrameworkUrl": "Device Build.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
